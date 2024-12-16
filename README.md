@@ -9,7 +9,8 @@ ESLint is used for identifying issues in JavaScript code and enforcing coding st
 Prettier formats code to ensure a consistent style.
 Installation:
 
-npm install eslint prettier eslint-plugin-import eslint-config-prettier eslint-plugin-prettier --save-dev
+´´´npm install eslint prettier eslint-plugin-import eslint-config-prettier eslint-plugin-prettier --save-dev
+´´´
 Configured to lint and format JavaScript and HTML files. ESLint is set up to handle test globals (e.g., describe, it, expect).
 
 ## 2. Husky – Git Hooks for Pre-commit Checks
@@ -17,7 +18,8 @@ Configured to lint and format JavaScript and HTML files. ESLint is set up to han
 Husky runs linting and formatting checks automatically before commits using lint-staged.
 Installation:
 
-npm install husky lint-staged --save-dev
+´´´npm install husky lint-staged --save-dev
+´´´
 Hooks ensure that code is properly linted and formatted before each commit.
 
 ## 3. Vitest – Unit Testing
@@ -25,7 +27,8 @@ Hooks ensure that code is properly linted and formatted before each commit.
 Vitest is a lightweight testing framework for unit tests.
 Installation:
 
-npm install vitest --save-dev
+´´´npm install vitest --save-dev
+´´´
 Configured to run unit tests on utility functions (e.g., isActivePath, getUserName).
 
 ## 4. Playwright – End-to-End Testing
@@ -33,7 +36,8 @@ Configured to run unit tests on utility functions (e.g., isActivePath, getUserNa
 Playwright is used for browser automation to write E2E tests.
 Installation:
 
-npm install playwright --save-dev
+´´´npm install playwright --save-dev
+´´´
 Configured to test user interactions like login and navigation on the website.
 
 ## 5. Environment Variables
