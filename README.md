@@ -1,5 +1,5 @@
  
-# Workflow (Project Setup and Tooling)
+# Workflow     (Project Setup and Tooling)
 
 This project uses several tools for linting, formatting, testing, and automating Git hooks to ensure code quality and consistency.
 
